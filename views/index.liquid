@@ -1,1 +1,23 @@
-Succes!
+{% render 'partials/head.liquid' %}
+
+<header>
+
+  
+</header>
+<main>
+  <div class="chatbot">
+    <form>
+      <input type="text">
+    </form>
+  </div>
+    <div class="producten">
+  {% for product in products %}
+ 
+      <h2>{{ product.name }}</h2>
+      <img src="{{ product.image }}">
+    
+  {% endfor %}
+  </div>
+</main>
+
+{% render 'partials/footer.liquid' %}
