@@ -1,8 +1,7 @@
 {% render 'partials/head.liquid' %}
 
 <header>
-
-  
+  <img src="assets/" alt="logo">
 </header>
 <main>
   <div class="chatbot">
@@ -10,13 +9,11 @@
       <input type="text">
     </form>
   </div>
-    <div class="producten">
-  {% for product in products %}
- 
-      <h2>{{ product.name }}</h2>
+  <div class="producten">
+    {% for product in products %}
       <img src="{{ product.image }}">
-    
-  {% endfor %}
+      <h2>{{ product.name }}</h2>
+    {% endfor %}
   </div>
 </main>
 
