@@ -10,10 +10,21 @@
     </form>
   </div>
   <div class="producten">
-    {% for product in products %}
-      <img src="{{ product.image }}">
-      <h2>{{ product.name }}</h2>
-    {% endfor %}
+    <div class="titel">
+      <h1>21 jaar? Dit zijn de cadeaus die indruk maken.</h1>
+      <p>
+        Op zoek naar een leuk cadeau voor iemand van 21 jaar? Hier vind je een aantal originele cadeau-suggesties,
+        gespot door de Milledoni community van cadeauspotters
+      </p>
+    </div>
+    <div class="productenlijst">
+      {% for product in products %}
+        <div class="producten-kaart">
+          <img src="{{ product.image }}">
+          <h2>{{ product.name }}</h2>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </main>
 

@@ -1,10 +1,10 @@
-body{
+body {
 
     margin: 0;
 }
 
-header{
- 
+header {
+
     height: 100px;
     border-bottom: 2px #E0B000 solid;
     display: flex;
@@ -12,38 +12,75 @@ header{
     align-items: center;
 
 
-    img{
-       height: 100px;
-       width: 100px;
-       margin-top: 80px;
+    img {
+        height: 100px;
+        width: 100px;
+        margin-top: 80px;
     }
 }
 
-main{
-    
- @media (min-width: 375px) {
-         display: flex;
-         }
+main {
 
-
+    @media (min-width: 375px) {
+        display: flex;
+    }
 }
 
-.chatbot{
+.chatbot {
     background-color: #CEBF91;
 
     height: 300px;
 
-    input{
-        margin-top: 70%; 
+    input {
+        margin-top: 70%;
         margin-left: 25%;
-        border:#E0B000 solid 2px;}
-
-            @media (min-width: 375px) {
-        width: 35%;
-         
-
+        border: #E0B000 solid 2px;
     }
+
+    @media (min-width: 375px) {
+        width: 45%;
+    }
+
 }
 
-     
+.producten{
+   
+    .titel{ width: 40%;
+
+    }
+
+.productenlijst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+
+     .producten-kaart{
+        width: 200px;
+        margin-top: 20px;
+   
+      
+
+       border: #E0B000 solid 2px;
+       
+        margin-left:30% ;
+
+        img{
+
+            width: 200px;
+            height: 220px;
+        }
+      }
+
+}
+            
     
+    
+
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+         margin-left: 30%;
+      }
+
+    }
+
+
