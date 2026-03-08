@@ -1,7 +1,7 @@
 {% render 'partials/head.liquid' %}
 
 <header>
-  <img src="assets/" alt="logo">
+  <img src="assets/logo_milledoni.svg" alt="logo">
 </header>
 <main>
   <div class="chatbot">
@@ -16,10 +16,12 @@
         Op zoek naar een leuk cadeau voor iemand van 21 jaar? Hier vind je een aantal originele cadeau-suggesties,
         gespot door de Milledoni community van cadeauspotters
       </p>
+      <button><img src="assets/filtericon.png">Filter</button>
     </div>
     <div class="productenlijst">
       {% for product in products %}
         <div class="producten-kaart">
+          <img class="strikje" src="/assets/strikje.svg">
           <img src="{{ product.image }}">
           <h2>{{ product.name }}</h2>
         </div>

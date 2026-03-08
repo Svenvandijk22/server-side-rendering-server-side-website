@@ -13,9 +13,9 @@ header {
 
 
     img {
-        height: 100px;
-        width: 100px;
-        margin-top: 80px;
+        height: 300px;
+        width: 300px;
+       
     }
 }
 
@@ -27,9 +27,9 @@ main {
 }
 
 .chatbot {
-    background-color: #CEBF91;
+    background-color: #F9F2D4;
 
-    height: 300px;
+    height: 1200px;
 
     input {
         margin-top: 70%;
@@ -45,29 +45,102 @@ main {
 
 .producten{
    
-    .titel{ width: 40%;
+    .titel{ 
+         margin-left: 6%;
+         padding-left: 35px;
+        width: 80%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 30px;
+        background-image: url("../assets/achtergrond_milledoni.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 80px;
+    padding-left: 80px;
+    border-radius: 60px;
 
+    h1{
+        width: 70%;
+    }
+
+    p{
+         width: 70%;
+    }
+
+    }
+
+    button{
+        background-color: #008263;
+        font-size: 23px;
+        font-family: arial;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding:5px;
+           display: flex;
+    align-items: center;
+      
+        width: 120px;
+      
+        
+
+        img{
+            padding-right: 11px;
+            padding-left: 5px;
+
+            width: 25px;
+            height: 25px;
+        }
     }
 
 .productenlijst{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
    
 
      .producten-kaart{
-        width: 200px;
-        margin-top: 20px;
-   
-      
+        width: 300px;
+        margin-top: 60px;
+        position: relative;
+        border: #E0B000 solid 2px;
+        border-radius: 25px;
+        background-color: #F7F7F7;
+          text-align: center;
+          height: 400px;
+          box-shadow: inset 5px 5px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 
-       border: #E0B000 solid 2px;
+
+.producten-kaart:hover {
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+}
+
+        .strikje{
+             top: -160px;
+             left: 43%;
+             width: 50px;
+
+            position: absolute;
+        }
        
-        margin-left:30% ;
+    
 
         img{
+            border-radius: 25px;
+            width: 300px;
+            height: 290px;
+        }
 
-            width: 200px;
-            height: 220px;
+
+        h2{
+            font-size: 20px;
+             margin: 0;
+             padding-top: 14px;
+          
         }
       }
 
