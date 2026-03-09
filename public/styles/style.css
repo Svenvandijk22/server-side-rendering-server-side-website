@@ -3,6 +3,14 @@ body {
     margin: 0;
 }
 
+
+.viernulvier{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20%;
+
+}
+
 header {
 
     height: 100px;
@@ -21,32 +29,40 @@ header {
 
 main {
 
-    @media (min-width: 375px) {
+    @media (min-width: 985px) {
         display: flex;
     }
 }
 
 .chatbot {
     background-color: #F9F2D4;
+      width: 100%;
 
-    height: 1200px;
+    height: 150px;
+   
 
     input {
-        margin-top: 70%;
+        margin-top: 120px;
         margin-left: 25%;
         border: #E0B000 solid 2px;
     }
 
-    @media (min-width: 375px) {
-        width: 45%;
+    @media (min-width: 955px) {
+
+            width: 40%;
+      
+       height: 1000px;
     }
 
-}
+} 
 
 .producten{
    
-    .titel{ 
-         margin-left: 6%;
+    .titel{
+        
+        
+            text-align:center;
+         margin-left: 0%;
          padding-left: 35px;
         width: 80%;
         font-family: Arial, Helvetica, sans-serif;
@@ -55,17 +71,33 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 450px;
     padding-top: 80px;
     padding-left: 80px;
     border-radius: 60px;
 
     h1{
         width: 70%;
+        
+      @media (min-width: 955px) {
+       text-align:none;
+        
+    }
     }
 
     p{
          width: 70%;
+           
+      @media (min-width: 955px) {
+       text-align: none;
+        
+    }
+    }
+
+      @media (min-width: 955px) {
+
+          margin-left: 6%;
+           height: 300px;
     }
 
     }
@@ -106,7 +138,7 @@ main {
         position: relative;
         border: #E0B000 solid 2px;
         border-radius: 25px;
-        background-color: #F7F7F7;
+        background-color: #f0f0f0;
           text-align: center;
           height: 400px;
           box-shadow: inset 5px 5px;
@@ -115,12 +147,12 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 
 
 .producten-kaart:hover {
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.52);
   transform: translateY(-4px);
 }
 
         .strikje{
-             top: -160px;
+             top: -173px;
              left: 43%;
              width: 50px;
 
@@ -130,9 +162,11 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     
 
         img{
+          
             border-radius: 25px;
-            width: 300px;
-            height: 290px;
+            width: 250px;
+            height: 240px;
+          margin-top: 40px;
         }
 
 
