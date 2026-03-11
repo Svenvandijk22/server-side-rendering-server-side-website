@@ -1,11 +1,9 @@
 # milledoni
 
 
-Ik heb me deze sprint vooral gefocusd op het visuel ontwerp van de categorie pagina. 
+Ik heb me deze sprint vooral gefocusd op het visuel ontwerp van de categorie pagina. Ik wilde 
 
-Ontwerp en ontwikkel een server-side website voor een opdrachtgever
 
-De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/INSTRUCTIONS.md)
 
 
 ## Inhoudsopgave
