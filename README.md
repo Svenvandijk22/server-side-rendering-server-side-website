@@ -1,4 +1,7 @@
-# Server-Side Website
+# milledoni
+
+
+Ik heb me deze sprint vooral gefocusd op het visuel ontwerp van de categorie pagina. 
 
 Ontwerp en ontwikkel een server-side website voor een opdrachtgever
 
