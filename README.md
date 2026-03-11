@@ -1,7 +1,7 @@
 # milledoni
 
 
-Ik heb me deze sprint vooral gefocusd op het visuel ontwerp van de categorie pagina. Ik wilde 
+Ik heb me deze sprint vooral gefocusd op het visuel ontwerp van de categorie pagina 21 jaar . Ik wilde als eerst een nieuwe indeling als het ging om de structuur van de website ik heb in mijn ontwerp de achtegrond kleur van de chatbot aangepast voor wat meer onderscheiding tussen de chatbot en de producten ook heb ik een hero gemaakt voor de titel van de pagina dit zorgt voor een wat een warmere uitstraling en zorgt voor een betere visuele hierarchie
 
 
 
