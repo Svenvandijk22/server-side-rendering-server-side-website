@@ -46,8 +46,8 @@
     <div class="productenlijst">
       {% for product in products %}
         <div class="producten-kaart">
-          <img class="strikje" src="/assets/strikje.svg" >
-          <img src="{{ product.image }}" >
+          <img class="strikje" src="/assets/strikje.svg" alt="strikje">
+          <img src="{{ product.image }}" alt="product">
           <h2>{{ product.name }}</h2>
         </div>
       {% endfor %}
